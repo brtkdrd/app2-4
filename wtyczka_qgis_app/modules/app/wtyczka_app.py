@@ -2344,7 +2344,7 @@ class AppModule(BaseModule):
                 #     QgsProject.instance().addMapLayer(bledne_geometrie['ERROR_OUTPUT'])
                 #     QgsProject.instance().addMapLayer(bledne_geometrie['INVALID_OUTPUT'])
                 #     return False
-                czyGeometrieSaPoprawne = False
+                    czyGeometrieSaPoprawne = False
                 
             # usuwanie pustych geometrii
             removenullgeometries = processing.run("native:removenullgeometries", {
